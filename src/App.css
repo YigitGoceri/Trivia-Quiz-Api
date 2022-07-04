@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+  
+}
+
+body{
+ 
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ 
+  background: url('https://images2.alphacoders.com/585/585163.jpg') no-repeat center  fixed;
+  background-size: cover;
+  
+
+}
+
+  main{
+    margin-top: 80px;
+  
+    border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #314469; 
+    opacity: 0.7;
+
+}
+
+
+
+.question--container{
+ 
+  position: relative;
+  width:100%;
+  padding: 50px;
+ 
+  border-bottom: 5px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.question--number{
+position: absolute;
+top: 15px;
+left: 15px;
+font-size: 25px;
+font-weight: 600;
+
+}
+.question-answers{
+  
+  display: grid;
+  grid-template: auto/ auto auto auto auto;
+  grid-gap: 15px;
+     
+}
+
+
+button{
+  margin-top: 40px;
+  outline: none;
+  padding: 0 10px;
+  text-align: center;
+  border-radius: 15px;
+  background: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.score{
+  position: absolute;
+  bottom: 0px;
+  left: 15px;
+  color: rgb(245, 237, 237);
+  font-size: 30px;
+  margin-bottom: 50px;
+  
+}
+
+.check-button{
+  margin-bottom: 40px;
+}
+
+.ok-button{
+  margin-bottom: 40px;
+}
+
+.start-container{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.start-button{
+  display: flex;
+  position: absolute;
+  width: 70%;
+  justify-content: center;
+  border-radius: 10px;
+ 
+  transform: translateY(-50%);
+  padding: 20px;
+  background: antiquewhite;
+  cursor: pointer;
+  font-size: 35px;
+}
+
+.start-button:hover{
+  background-color: grey;
+}
+
+@media screen and (max-width: 880px) {
+
+  .score{
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    color: rgb(59, 58, 58);
+    font-size: 20px;
+    margin-bottom: 50px;
+    
+  }
+
+
+}
