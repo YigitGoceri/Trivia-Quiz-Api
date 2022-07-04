@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+## Project DEMO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You can access my project=>y [PROJECT LINK](https://trivia-yigitgoceri.vercel.app/).
 
 ## Available Scripts
 
