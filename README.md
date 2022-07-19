@@ -1,6 +1,6 @@
 ## Project DEMO
 
-You can access my project=> [PROJECT LINK](https://trivia-yigitgoceri.vercel.app/).
+You can access my project=> [PROJECT LINK](https://todoapp-git-main-yigitgoceri.vercel.app/).
 
 ## Available Scripts
 
